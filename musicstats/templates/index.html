@@ -1,0 +1,98 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CDPR Games</title>
+<!--     <link rel="stylesheet" href="{% static 'css/style.css'%}">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body style="background-color: #2e2e2e;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Witcher 3
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Description</a></li>
+            <li><a class="dropdown-item" href="#">Characters</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Updates</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cyberpunk 2077
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Description</a></li>
+            <li><a class="dropdown-item" href="#">Characters</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Updates</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">About</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Use quick search..." aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <center><h1 style="font-size: 120px; color: red">All about games CD Project RED</h1></center>
+    <br><br><br><h1 style="font-size: 60px; color: red">Find your favorite CDPR game:</h1></br></br><br>
+    <div class="card text-bg-danger" style="width: 32rem; margin-left: 100px;">
+  <img src="{% static 'img/Witcher3cover.jpg' %}" style="width: 225px; height: 300px" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">The Witcher 3: Wild Hunt</h5>
+    <p class="card-text">The most popular СDPR game with a huge open world and quests. Immediately after its release on May 19, 2015, the game gained immense popularity. It is the sequel to the 2011 game The Witcher 2: Assassins of Kings and the third game in The Witcher video game series. The games follow the Witcher series of fantasy novels written by Andrzej Sapkowski. The game takes place in a fictional fantasy world based on Slavic mythology. Players control Geralt of Rivia, a monster slayer for hire known as a Witcher, and search for his adopted daughter, who is on the run from the otherworldly Wild Hunt. Players battle the game's many dangers with weapons and magic, interact with non-player characters, and complete quests to acquire experience points and gold, which are used to increase Geralt's abilities and purchase equipment. The game's story has three possible endings, determined by the player's choices at key points in the narrative.
+        The Witcher 3: Wild Hunt was released for PlayStation 4, Windows, and Xbox One in May 2015, with a Nintendo Switch version released in October 2019, and PlayStation 5 and Xbox Series X/S versions titled The Witcher 3: Wild Hunt - Complete Edition which was released in December 2022. The game received critical acclaim, with praise for its gameplay, narrative, world design, combat, and visuals, although it received minor criticism due to technical issues. It holds more than 200 game of the year awards and has been cited as one of the greatest video games ever made. Two expansions were also released to critical acclaim: Hearts of Stone and Blood and Wine. A Game of the Year edition was released in August 2016, with the base game, expansions and all downloadable content included. The game has sold over 50 million units as of March 2023, making it one of the best-selling video games of all time.
+        A more detailed description can be found at the link below.</p>
+  </div>
+  <div class="card-body">
+    <a href="#" class="btn btn-primary">Description</a>
+    <a href="#" class="btn btn-primary">Characters</a>
+    <a href="#" class="btn btn-primary">Updates</a>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+    <img src="{% static 'img/thewitcher3.png' %}" style="margin-left: 1000px; margin-top: -1850px;>
+    <img src="{% static 'img/gameplay.png' %}">
+    <img src="{% static 'img/gameplay.png' %}" style="width: 935px; height: 575px; margin-left: 640px; margin-top: -650px; border-radius: 5%">
+    <img src="{% static 'img/geralt.jpg' %}"style="width: 935px; height: 575px; margin-left: 1590px; margin-top: -695px; border-radius: 5%">
+    <div class="card text-bg-danger" style="width: 32rem; margin-left: 100px;">
+  <img src="{% static 'img/cyberpunk2077cover.jpg' %}" style="width: 225px; height: 300px" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Cyberpunk 2077: Phantom Liberty</h5>
+    <p class="card-text">Cyberpunk 2077 is a 2020 action role-playing video game developed by CD Projekt Red and published by CD Projekt. The plot is set in the fictional metropolis of Night City, California, within the dystopian Cyberpunk universe. The player assumes the role of V (voiced by Gavin Drea/Cherami Leigh), a mercenary who accidentally gets imbued with a cybernetic "bio-chip" containing an engram of legendary rockstar and terrorist Johnny Silverhand (voiced by Keanu Reeves). As Johnny's consciousness begins overwriting V's own, the two must work together to separate and save V's life.
+    The game's development began following the release of The Witcher 3: Wild Hunt – Blood and Wine (2016). The game was developed by a team of around 500 people using the REDengine 4 game engine. After years of anticipation, CD Projekt released Cyberpunk 2077 for PlayStation 4, Stadia, Windows, and Xbox One on 10 December 2020, followed by PlayStation 5 and Xbox Series X/S on 15 February 2022.
+    Cyberpunk 2077 received praise from critics for its narrative, setting, and graphics. However, some of its gameplay elements received mixed responses while its themes and representation of transgender characters received some criticism. It was also widely criticized for bugs, particularly in the console versions which suffered from performance problems. Sony removed it from the PlayStation Store from December 2020 to June 2021 while CD Projekt rectified some of the problems.
+    By October 2023, the game had sold over 25 million units. An expansion, Phantom Liberty, released for PlayStation 5, Windows, and Xbox Series X/S on 26 September 2023, which sold 5 million units in 2023. Its total cost to develop and market (including updates and DLC) is reportedly over $436 million, making it one of the most expensive video games to develop. A sequel, codenamed "Project Orion", was announced in October 2022.</p>
+  </div>
+  <div class="card-body">
+    <a href="#" class="btn btn-primary">Description</a>
+    <a href="#" class="btn btn-primary">Characters</a>
+    <a href="#" class="btn btn-primary">Updates</a>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+    <img src="{% static 'img/cyberpunk2077.png' %}"style="width: 1300px; height: 375px; margin-left: 900px; margin-top: -2000px;">
+    <img src="{% static 'img/vi.jpg' %}"style="width: 935px; height: 575px; margin-left: 650px; margin-top: -1000px; border-radius: 5%">
+    <img src="{% static 'img/roys.webp' %}"style="width: 935px; height: 575px; margin-left: 1590px; margin-top: -1050px; border-radius: 5%">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
